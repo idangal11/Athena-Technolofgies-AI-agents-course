@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AthenaAI | סדנאות AI וסוכנים לחטיבות ביניים ולתיכונים</title>
+<meta name="description" content="סדנאות בינה מלאכותית וסוכני AI לתלמידי ז' עד י&quot;ב, בהנחיית חוקרים ומתרגלים מהאוניברסיטה. שלושה מסלולים: 90 דקות, 4 מפגשים או 10 מפגשים.">
+<meta property="og:title" content="AthenaAI | סדנאות AI וסוכנים לחטיבות ביניים ולתיכונים">
+<meta property="og:description" content="סדנאות בינה מלאכותית וסוכני AI לתלמידי ז' עד י&quot;ב, בהנחיית חוקרים ומתרגלים מהאוניברסיטה. שלושה מסלולים: 90 דקות, 4 מפגשים או 10 מפגשים.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0d0f12">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2038%2038%22%3E%3Crect%20width%3D%2238%22%20height%3D%2238%22%20rx%3D%229%22%20fill%3D%22%230d0f12%22%2F%3E%3Cpath%20d%3D%22M10%2028%20L19%209%20L28%2028%22%20stroke%3D%22%23f4f6f1%22%20stroke-width%3D%222.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20fill%3D%22none%22%2F%3E%3Ccircle%20cx%3D%2219%22%20cy%3D%2222%22%20r%3D%222.6%22%20fill%3D%22%23c6f432%22%2F%3E%3C%2Fsvg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=IBM+Plex+Sans+Hebrew:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+body{margin:0;background:#0d0f12}
+html{scroll-behavior:smooth}
+a{color:#c6f432}a:hover{color:#dcff66}
+*{box-sizing:border-box}
+.nav{display:flex}
+@media (max-width:900px){.nav{display:none}}
+.btn{transition:transform .15s ease, background .15s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn-lime:hover{background:#dcff66;color:#0d0f12}
+.btn-ghost:hover{background:rgba(255,255,255,.08);color:#f4f6f1}
+.btn-ink:hover{background:#23272e;color:#f4f6f1}
+.navlink{color:#c9ced4;text-decoration:none}
+.navlink:hover{color:#ffffff}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #c6f432;outline-offset:3px}
+summary{list-style:none;cursor:pointer}
+summary::-webkit-details-marker{display:none}
+details .plus{transition:transform .2s ease}
+details[open] .plus{transform:rotate(45deg)}
+.field::placeholder{color:#7d848d}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@keyframes step{from{opacity:0;transform:translateX(14px)}to{opacity:1;transform:none}}
+.rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+.rise2{animation:rise .7s .12s cubic-bezier(.2,.7,.2,1) both}
+.s1{animation:step .5s .3s ease both}.s2{animation:step .5s .6s ease both}.s3{animation:step .5s .9s ease both}.s4{animation:step .5s 1.2s ease both}.s5{animation:step .5s 1.5s ease both}
+@media (prefers-reduced-motion:reduce){.rise,.rise2,.s1,.s2,.s3,.s4,.s5{animation:none}}
+
+.skip{position:absolute;right:12px;top:-60px;background:#c6f432;color:#0d0f12;padding:10px 16px;border-radius:8px;font-weight:700;z-index:50;text-decoration:none}
+.skip:focus{top:12px}
+.wa-float{position:fixed;bottom:20px;left:20px;z-index:30;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#c6f432;color:#0d0f12;box-shadow:0 12px 30px -8px rgba(0,0,0,.6);transition:transform .15s ease}
+.wa-float:hover{transform:scale(1.07);color:#0d0f12}
+footer>div{padding-bottom:96px!important}
+</style>
+</head>
+<body>
+<a class="skip" href="#top">דלגו לתוכן</a>
+<div dir="rtl" lang="he" style="font-family: 'IBM Plex Sans Hebrew', 'Segoe UI', Arial, sans-serif; color: #f4f6f1; background: #0d0f12; line-height: 1.6; text-align: start; overflow-x: hidden">
+
+<!-- HEADER -->
+<header style="position: sticky; top: 0; z-index: 20; background: rgba(13,15,18,.92); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,255,255,.09)">
+<div style="max-width: 1180px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap">
+<a href="#top" aria-label="AthenaAI Technologies" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #f4f6f1">
+<svg aria-hidden="true" width="38" height="38" viewBox="0 0 38 38" fill="none"><rect x="1" y="1" width="36" height="36" rx="9" stroke="#c6f432" stroke-width="1.5"></rect><path d="M10 28 L19 9 L28 28" stroke="#f4f6f1" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="19" cy="22" r="2.6" fill="#c6f432"></circle></svg>
+<span style="display: flex; flex-direction: column; line-height: 1.1" dir="ltr">
+<span style="font-weight: 700; font-size: 19px; letter-spacing: -.01em">Athena<span style="color: #c6f432">AI</span></span>
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: .22em; color: #a7adb5; text-transform: uppercase">Technologies</span>
+</span>
+</a>
+<nav class="nav" aria-label="ניווט ראשי" style="gap: 30px; font-size: 15.5px; font-weight: 500">
+<a class="navlink" href="#workshops">הסדנאות</a>
+<a class="navlink" href="#content">מה לומדים</a>
+<a class="navlink" href="#team">המרצים</a>
+<a class="navlink" href="#faq">שאלות</a>
+</nav>
+<a class="btn btn-lime" href="#contact" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 999px; background: #c6f432; color: #0d0f12; font-weight: 700; font-size: 15px; text-decoration: none">תיאום שיחה</a>
+</div>
+</header>
+
+<!-- HERO -->
+<section id="top" style="background-color: #0d0f12; background-image: repeating-linear-gradient(90deg, rgba(255,255,255,.035) 0 1px, transparent 1px 118px)">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) 24px clamp(56px, 7vw, 104px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: clamp(36px, 5vw, 72px); align-items: center">
+<div style="display: flex; flex-direction: column; gap: 26px; align-items: flex-start">
+<div class="rise" style="display: inline-flex; align-items: center; gap: 10px; padding: 7px 14px; border: 1px solid rgba(198,244,50,.45); border-radius: 999px; font-size: 14px; font-weight: 500; color: #dfe4d6">
+<span aria-hidden="true" style="width: 8px; height: 8px; border-radius: 50%; background: #c6f432"></span>
+<span>סדנאות AI וסוכנים לחטיבות ביניים ולתיכונים</span>
+</div>
+<h1 class="rise2" style="margin: 0; font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: clamp(40px, 5.6vw, 76px); line-height: 1.04; letter-spacing: -.015em; text-wrap: balance">התלמידים שלכם כבר משתמשים ב-AI. <span style="color: #c6f432">אצלנו הם לומדים לבנות איתו.</span></h1>
+<p class="rise2" style="margin: 0; max-width: 34em; font-size: clamp(17px, 1.5vw, 20px); color: #c9ced4; text-wrap: pretty">חוקרים ומתרגלים מהאוניברסיטה מגיעים לכיתה ופותחים לתלמידים עולם שלא הכירו: איך מודל שפה חושב, מתי הוא טועה, ואיך בונים סוכן AI שמבצע משימה מתחילתה ועד סופה.</p>
+<div class="rise2" style="display: flex; flex-wrap: wrap; gap: 14px; align-items: center">
+<a class="btn btn-lime" href="#contact" style="display: inline-flex; align-items: center; justify-content: center; min-height: 58px; padding: 0 32px; border-radius: 14px; background: #c6f432; color: #0d0f12; font-weight: 700; font-size: 18px; text-decoration: none">קבלו תוכנית לבית הספר</a>
+<a class="btn btn-ghost" href="#workshops" style="display: inline-flex; align-items: center; justify-content: center; min-height: 58px; padding: 0 26px; border-radius: 14px; border: 1px solid rgba(255,255,255,.28); color: #f4f6f1; font-weight: 600; font-size: 17px; text-decoration: none">לשלוש הסדנאות</a>
+</div>
+<ul style="list-style: none; margin: 6px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(230px, 100%), 1fr)); gap: 10px 26px; width: 100%; font-size: 15.5px; color: #dfe4d6">
+<li style="display: flex; align-items: center; gap: 10px"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#c6f432" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>מרצים בעלי תואר שני לפחות</span></li>
+<li style="display: flex; align-items: center; gap: 10px"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#c6f432" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>כיתות ז' עד י"ב</span></li>
+<li style="display: flex; align-items: center; gap: 10px"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#c6f432" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>בלי ידע קודם בתכנות</span></li>
+<li style="display: flex; align-items: center; gap: 10px"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#c6f432" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>כל תלמיד בונה בעצמו</span></li>
+</ul>
+</div>
+
+<!-- AGENT CARD -->
+<div class="rise2" style="position: relative">
+<div aria-hidden="true" style="position: absolute; inset: 22px -14px -18px 22px; border: 1px solid rgba(198,244,50,.35); border-radius: 26px"></div>
+<div style="position: relative; background: #16191e; border: 1px solid rgba(255,255,255,.12); border-radius: 24px; box-shadow: 0 40px 80px -30px rgba(0,0,0,.8); overflow: hidden">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 22px; border-bottom: 1px solid rgba(255,255,255,.09)">
+<span style="font-weight: 700; font-size: 16px">סוכן של תלמידה מכיתה ט'</span>
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: .08em; padding: 5px 10px; border-radius: 6px; border: 1px solid rgba(255,255,255,.2); color: #c9ced4">דוגמה</span>
+</div>
+<ol style="list-style: none; margin: 0; padding: 22px; display: flex; flex-direction: column; gap: 12px">
+<li class="s1" style="display: grid; grid-template-columns: 76px 1fr; gap: 14px; align-items: start; padding: 14px 16px; border-radius: 14px; background: #c6f432; color: #0d0f12">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; font-weight: 500; padding-top: 3px">מטרה</span>
+<span style="font-size: 16px; font-weight: 600">לתכנן יום טיול לשכבה, בתקציב שקבעה המחנכת</span>
+</li>
+<li class="s2" style="display: grid; grid-template-columns: 76px 1fr; gap: 14px; align-items: start; padding: 14px 16px; border-radius: 14px; background: #23272e">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; color: #c6f432; padding-top: 3px">מתכנן</span>
+<span style="font-size: 15.5px">מפרק את המשימה לשלבים: מסלול, הסעה, אוכל, לוח זמנים</span>
+</li>
+<li class="s3" style="display: grid; grid-template-columns: 76px 1fr; gap: 14px; align-items: start; padding: 14px 16px; border-radius: 14px; background: #23272e">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; color: #c6f432; padding-top: 3px">פועל</span>
+<span style="font-size: 15.5px">מחפש מסלולים, בודק תחזית, מחשב עלויות לכל תלמיד</span>
+</li>
+<li class="s4" style="display: grid; grid-template-columns: 76px 1fr; gap: 14px; align-items: start; padding: 14px 16px; border-radius: 14px; background: #23272e">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; color: #c6f432; padding-top: 3px">בודק</span>
+<span style="font-size: 15.5px">מגלה שחרג מהתקציב, ומחליף את המסלול</span>
+</li>
+<li class="s5" style="display: grid; grid-template-columns: 76px 1fr; gap: 14px; align-items: start; padding: 14px 16px; border-radius: 14px; background: #23272e">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; color: #c6f432; padding-top: 3px">מגיש</span>
+<span style="font-size: 15.5px">תוכנית יום מסודרת, עם נימוק לכל החלטה</span>
+</li>
+</ol>
+<p style="margin: 0; padding: 0 22px 22px; font-size: 15px; color: #a7adb5">זה ההבדל בין צ'אט לסוכן: צ'אט עונה, סוכן פועל. את זה התלמידים בונים בסדנה.</p>
+</div>
+</div>
+</div>
+<svg aria-hidden="true" width="100%" height="22" style="display: block; opacity: .5"><defs><pattern id="meander-s" width="28" height="22" patternUnits="userSpaceOnUse"><path d="M0 19 H24 V3 H6 V13 H16 V8" fill="none" stroke="#c6f432" stroke-width="1.4"></path></pattern></defs><rect width="100%" height="22" fill="url(#meander-s)"></rect></svg>
+</section>
+
+<!-- WHY NOW -->
+<section style="background: #eef0ec; color: #14171b">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(64px, 8vw, 112px) 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr)); gap: clamp(32px, 5vw, 72px); align-items: start">
+<div style="display: flex; flex-direction: column; gap: 20px">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: .14em; color: #3f5200; font-weight: 500">01 / למה עכשיו</span>
+<h2 style="margin: 0; font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: clamp(34px, 4.4vw, 58px); line-height: 1.06; letter-spacing: -.01em; text-wrap: balance">להשתמש בצ'אט כולם יודעים. להבין אותו, כמעט אף אחד.</h2>
+<p style="margin: 0; font-size: 18px; color: #3d434a; max-width: 30em; text-wrap: pretty">רוב התוכניות בבתי הספר מלמדות לכתוב פרומפט וליצור תמונה. אנחנו מתחילים משם וממשיכים הלאה: לאופן שבו המודל עובד, ולסוכנים, התחום שאליו עולם ה-AI עובר עכשיו.</p>
+<p style="margin: 0; font-size: 15.5px; color: #4a5058; max-width: 32em">הסדנאות בנויות לפי ארבעת ממדי כשירות הבינה המלאכותית שהגדיר משרד החינוך לתלמידי העל-יסודי.</p>
+</div>
+<div style="background: #fafbf8; border: 1px solid #d5d9d0; border-radius: 20px; overflow: hidden">
+<div style="display: grid; grid-template-columns: 1fr 1fr; font-size: 13.5px; font-weight: 600">
+<span style="padding: 16px 18px; color: #4a5058">ממד כשירות (משרד החינוך)</span>
+<span style="padding: 16px 18px; background: #0d0f12; color: #c6f432">מה עושים אצלנו</span>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid #d5d9d0; font-size: 15.5px">
+<span style="padding: 18px; font-weight: 700">הבנת מערכות AI ואופן פעולתן</span>
+<span style="padding: 18px; background: #0d0f12; color: #f4f6f1">מפרקים מודל שפה: מילים, הסתברויות, אימון</span>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid #d5d9d0; font-size: 15.5px">
+<span style="padding: 18px; font-weight: 700">שימוש יעיל ומושכל</span>
+<span style="padding: 18px; background: #0d0f12; color: #f4f6f1">פרומפטים, זיהוי הזיות ובדיקת עובדות</span>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid #d5d9d0; font-size: 15.5px">
+<span style="padding: 18px; font-weight: 700">שימוש יוזם ויוצר ערך</span>
+<span style="padding: 18px; background: #0d0f12; color: #f4f6f1">כל תלמיד בונה סוכן שפותר בעיה אמיתית</span>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid #d5d9d0; font-size: 15.5px">
+<span style="padding: 18px; font-weight: 700">תפקוד אתי</span>
+<span style="padding: 18px; background: #0d0f12; color: #f4f6f1">פרטיות, הטיות, ומתי אסור לסמוך על המכונה</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- WORKSHOPS -->
+<section id="workshops" style="background-color: #0d0f12; background-image: repeating-linear-gradient(90deg, rgba(255,255,255,.035) 0 1px, transparent 1px 118px)">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(64px, 8vw, 112px) 24px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 720px">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: .14em; color: #c6f432; font-weight: 500">02 / הסדנאות</span>
+<h2 style="margin: 0; font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: clamp(34px, 4.4vw, 58px); line-height: 1.06; letter-spacing: -.01em; text-wrap: balance">שלושה מסלולים, לפי הזמן שיש לכם.</h2>
+<p style="margin: 0; font-size: 18px; color: #c9ced4">כל מסלול מותאם לשכבת הגיל ומועבר בכיתה אחת בכל פעם, כדי שכל תלמיד יתנסה בעצמו.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(310px, 100%), 1fr)); gap: 22px; align-items: stretch">
+
+<article style="display: flex; flex-direction: column; gap: 22px; padding: 34px 28px 28px; border-radius: 22px; background: #16191e; border: 1px solid rgba(255,255,255,.14)">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; letter-spacing: .12em; color: #c6f432">קצרה</span>
+<h3 style="margin: 0; font-size: 28px; font-weight: 700; line-height: 1.2">הצצה</h3>
+<p style="margin: 0; font-size: 15.5px; color: #a7adb5">מפגש אחד שפותח את הראש</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,.14)">
+<span style="font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: 40px; line-height: 1.05">90 דקות</span>
+<span style="font-size: 14.5px; color: #a7adb5">מפגש אחד · שני שיעורים רצופים</span>
+</div>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; font-size: 16px; flex-grow: 1">
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex: none; margin-top: 4px"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#c6f432" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>איך מודל שפה חושב, בלי נוסחאות</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex: none; margin-top: 4px"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#c6f432" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>הדגמה חיה של סוכן AI בפעולה</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex: none; margin-top: 4px"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#c6f432" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>התנסות: התלמידים תופסים את המודל בטעות</span></li>
+</ul>
+<div style="display: flex; align-items: baseline; gap: 10px">
+<span style="font-weight: 700; font-size: 24px" dir="ltr">₪900</span>
+<span style="font-size: 14px; color: #a7adb5">לכיתה, לפני מע״מ</span>
+</div>
+<a class="btn btn-ghost" href="#contact" data-pick="הצצה (90 דקות)" style="display: flex; align-items: center; justify-content: center; min-height: 54px; border-radius: 14px; border: 1px solid rgba(255,255,255,.3); color: #f4f6f1; font-weight: 700; font-size: 17px; text-decoration: none">אני רוצה הצצה</a>
+</article>
+
+<article style="position: relative; display: flex; flex-direction: column; gap: 22px; padding: 34px 28px 28px; border-radius: 22px; background: #c6f432; color: #0d0f12; border: 1px solid #c6f432">
+<span style="position: absolute; top: -14px; inset-inline-start: 26px; padding: 5px 14px; border-radius: 999px; background: #0d0f12; color: #c6f432; border: 1px solid #c6f432; font-size: 13px; font-weight: 700">המומלצת</span>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; letter-spacing: .12em; color: #2c3600">בינונית</span>
+<h3 style="margin: 0; font-size: 28px; font-weight: 700; line-height: 1.2">מעבדה</h3>
+<p style="margin: 0; font-size: 15.5px; color: #2c3600">מהבנה ועד סוכן ראשון שעובד</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px; padding-bottom: 20px; border-bottom: 1px solid rgba(13,15,18,.25)">
+<span style="font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: 40px; line-height: 1.05">4 מפגשים</span>
+<span style="font-size: 14.5px; color: #2c3600">90 דקות כל מפגש · 8 שעות לימוד</span>
+</div>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; font-size: 16px; flex-grow: 1">
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex: none; margin-top: 4px"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#0d0f12" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>כל מה שבהצצה, לעומק</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex: none; margin-top: 4px"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#0d0f12" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>פרומפטים, הזיות ובדיקת עובדות</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex: none; margin-top: 4px"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#0d0f12" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>כל תלמיד בונה סוכן AI ראשון, בלי קוד</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex: none; margin-top: 4px"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#0d0f12" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>דיון אתי: פרטיות, הטיות ואחריות</span></li>
+</ul>
+<div style="display: flex; align-items: baseline; gap: 10px">
+<span style="font-weight: 700; font-size: 24px" dir="ltr">₪3,200</span>
+<span style="font-size: 14px; color: #2c3600">לכיתה, לפני מע״מ</span>
+</div>
+<a class="btn btn-ink" href="#contact" data-pick="מעבדה (4 מפגשים)" style="display: flex; align-items: center; justify-content: center; min-height: 54px; border-radius: 14px; background: #0d0f12; color: #f4f6f1; font-weight: 700; font-size: 17px; text-decoration: none">אני רוצה מעבדה</a>
+</article>
+
+<article style="display: flex; flex-direction: column; gap: 22px; padding: 34px 28px 28px; border-radius: 22px; background: #16191e; border: 1px solid rgba(255,255,255,.14)">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; letter-spacing: .12em; color: #c6f432">ארוכה</span>
+<h3 style="margin: 0; font-size: 28px; font-weight: 700; line-height: 1.2">מסלול</h3>
+<p style="margin: 0; font-size: 15.5px; color: #a7adb5">קורס סמסטריאלי עם פרויקט גמר</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,.14)">
+<span style="font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: 40px; line-height: 1.05">10 מפגשים</span>
+<span style="font-size: 14.5px; color: #a7adb5">90 דקות כל מפגש · 20 שעות לימוד</span>
+</div>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; font-size: 16px; flex-grow: 1">
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex: none; margin-top: 4px"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#c6f432" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>כל מה שבמעבדה</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex: none; margin-top: 4px"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#c6f432" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>סוכנים עם כלים, זיכרון ועבודת צוות בין סוכנים</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex: none; margin-top: 4px"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#c6f432" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>פרויקט גמר בצוותים, על בעיה מבית הספר</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex: none; margin-top: 4px"><path d="M3.5 9.5l3.5 3.5 7.5-8" stroke="#c6f432" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>יום הצגה: התלמידים מציגים לשכבה ולהורים</span></li>
+</ul>
+<div style="display: flex; align-items: baseline; gap: 10px">
+<span style="font-weight: 700; font-size: 24px" dir="ltr">₪7,000</span>
+<span style="font-size: 14px; color: #a7adb5">לכיתה, לפני מע״מ</span>
+</div>
+<a class="btn btn-ghost" href="#contact" data-pick="מסלול (10 מפגשים)" style="display: flex; align-items: center; justify-content: center; min-height: 54px; border-radius: 14px; border: 1px solid rgba(255,255,255,.3); color: #f4f6f1; font-weight: 700; font-size: 17px; text-decoration: none">אני רוצה מסלול</a>
+</article>
+
+</div>
+</div>
+</section>
+
+<!-- CONTENT -->
+<section id="content" style="background: #fafbf8; color: #14171b">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(64px, 8vw, 112px) 24px; display: flex; flex-direction: column; gap: 44px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 720px">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: .14em; color: #3f5200; font-weight: 500">03 / מה לומדים</span>
+<h2 style="margin: 0; font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: clamp(34px, 4.4vw, 58px); line-height: 1.06; letter-spacing: -.01em; text-wrap: balance">שישה נושאים שתלמיד לא יפגוש בשיעור רגיל.</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 1px; background: #d5d9d0; border: 1px solid #d5d9d0; border-radius: 20px; overflow: hidden">
+<article style="background: #fafbf8; padding: 32px 28px; display: flex; flex-direction: column; gap: 12px"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #3f5200; font-weight: 500">A</span><h3 style="margin: 0; font-size: 22px; font-weight: 700; line-height: 1.25">איך מודל שפה חושב</h3><p style="margin: 0; font-size: 16px; color: #3d434a; text-wrap: pretty">למה המודל מנחש את המילה הבאה, ומה זה אומר על התשובות שלו.</p></article>
+<article style="background: #fafbf8; padding: 32px 28px; display: flex; flex-direction: column; gap: 12px"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #3f5200; font-weight: 500">B</span><h3 style="margin: 0; font-size: 22px; font-weight: 700; line-height: 1.25">לשאול נכון</h3><p style="margin: 0; font-size: 16px; color: #3d434a; text-wrap: pretty">ניסוח בקשות מדויקות, ולמה אותה שאלה מקבלת תשובות שונות.</p></article>
+<article style="background: #fafbf8; padding: 32px 28px; display: flex; flex-direction: column; gap: 12px"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #3f5200; font-weight: 500">C</span><h3 style="margin: 0; font-size: 22px; font-weight: 700; line-height: 1.25">לתפוס את המכונה בטעות</h3><p style="margin: 0; font-size: 16px; color: #3d434a; text-wrap: pretty">הזיות, מקורות מומצאים, ואיך בודקים תשובה לפני שסומכים עליה.</p></article>
+<article style="background: #fafbf8; padding: 32px 28px; display: flex; flex-direction: column; gap: 12px"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #3f5200; font-weight: 500">D</span><h3 style="margin: 0; font-size: 22px; font-weight: 700; line-height: 1.25">מה זה סוכן AI</h3><p style="margin: 0; font-size: 16px; color: #3d434a; text-wrap: pretty">מטרה, תכנון, כלים ובדיקה עצמית: מה הופך צ'אט למערכת שפועלת לבד.</p></article>
+<article style="background: #fafbf8; padding: 32px 28px; display: flex; flex-direction: column; gap: 12px"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #3f5200; font-weight: 500">E</span><h3 style="margin: 0; font-size: 22px; font-weight: 700; line-height: 1.25">בונים סוכן</h3><p style="margin: 0; font-size: 16px; color: #3d434a; text-wrap: pretty">בחטיבה בלי קוד, בתיכון גם עם פייתון למי שרוצה. כל תלמיד יוצא עם משהו שעובד.</p></article>
+<article style="background: #fafbf8; padding: 32px 28px; display: flex; flex-direction: column; gap: 12px"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #3f5200; font-weight: 500">F</span><h3 style="margin: 0; font-size: 22px; font-weight: 700; line-height: 1.25">אתיקה ואחריות</h3><p style="margin: 0; font-size: 16px; color: #3d434a; text-wrap: pretty">פרטיות, הטיות, ומה קורה כשנותנים למכונה לקבל החלטות.</p></article>
+</div>
+</div>
+</section>
+
+<!-- TEAM -->
+<section id="team" style="background: #eef0ec; color: #14171b; border-top: 1px solid #d5d9d0">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(64px, 8vw, 112px) 24px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 760px">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: .14em; color: #3f5200; font-weight: 500">04 / המרצים</span>
+<h2 style="margin: 0; font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: clamp(34px, 4.4vw, 58px); line-height: 1.06; letter-spacing: -.01em; text-wrap: balance">מי שעומד מול הכיתה עוסק בזה כל יום.</h2>
+<p style="margin: 0; font-size: 18px; color: #3d434a; text-wrap: pretty">לא מדריכים שלמדו את החומר בשבוע שעבר. אנשים שחוקרים ומלמדים בינה מלאכותית באקדמיה, ויודעים לענות גם על השאלה שלא הייתה במערך.</p>
+</div>
+<ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 28px">
+<li style="display: flex; flex-direction: column; gap: 12px; padding-top: 22px; border-top: 3px solid #14171b"><h3 style="margin: 0; font-size: 23px; font-weight: 700">תואר שני לפחות</h3><p style="margin: 0; font-size: 16.5px; color: #3d434a; text-wrap: pretty">כל מרצה מחזיק בתואר שני ומעלה בתחום רלוונטי.</p></li>
+<li style="display: flex; flex-direction: column; gap: 12px; padding-top: 22px; border-top: 3px solid #14171b"><h3 style="margin: 0; font-size: 23px; font-weight: 700">מתרגלים מהאוניברסיטה</h3><p style="margin: 0; font-size: 16.5px; color: #3d434a; text-wrap: pretty">רגילים להסביר חומר מורכב בפשטות, ולעבוד עם כיתה שלמה.</p></li>
+<li style="display: flex; flex-direction: column; gap: 12px; padding-top: 22px; border-top: 3px solid #14171b"><h3 style="margin: 0; font-size: 23px; font-weight: 700">חוקרים פעילים בתחום</h3><p style="margin: 0; font-size: 16.5px; color: #3d434a; text-wrap: pretty">מביאים לכיתה את מה שקורה עכשיו, לא את מה שהיה נכון לפני שנתיים.</p></li>
+</ol>
+<p style="margin: 0; font-size: 16px; font-weight: 600">מייסד: עידן גל, מדען נתונים, M.Sc. בהנדסת מערכות מידע, אוניברסיטת בן-גוריון.</p>
+</div>
+</section>
+
+<!-- PROCESS -->
+<section style="background: #fafbf8; color: #14171b; border-top: 1px solid #d5d9d0">
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(64px, 8vw, 104px) 24px; display: flex; flex-direction: column; gap: 44px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 720px">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: .14em; color: #3f5200; font-weight: 500">05 / איך זה עובד</span>
+<h2 style="margin: 0; font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: clamp(32px, 4vw, 52px); line-height: 1.08; text-wrap: balance">משיחה ראשונה ועד מרצה בכיתה.</h2>
+</div>
+<ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 28px">
+<li style="display: flex; flex-direction: column; gap: 12px"><span aria-hidden="true" style="font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: 64px; line-height: .9; color: #3f5200" dir="ltr">1</span><h3 style="margin: 0; font-size: 23px; font-weight: 700">שיחת התאמה</h3><p style="margin: 0; font-size: 16.5px; color: #3d434a; text-wrap: pretty">מבינים את השכבה, הרמה והמטרה: חשיפה, העשרה או מגמה.</p></li>
+<li style="display: flex; flex-direction: column; gap: 12px"><span aria-hidden="true" style="font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: 64px; line-height: .9; color: #3f5200" dir="ltr">2</span><h3 style="margin: 0; font-size: 23px; font-weight: 700">תוכנית מותאמת</h3><p style="margin: 0; font-size: 16.5px; color: #3d434a; text-wrap: pretty">בוחרים מסלול ומשבצים אותו במערכת השעות שלכם.</p></li>
+<li style="display: flex; flex-direction: column; gap: 12px"><span aria-hidden="true" style="font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: 64px; line-height: .9; color: #3f5200" dir="ltr">3</span><h3 style="margin: 0; font-size: 23px; font-weight: 700">מגיעים אליכם</h3><p style="margin: 0; font-size: 16.5px; color: #3d434a; text-wrap: pretty">המרצה מגיע לבית הספר עם כל החומרים. אתם מספקים כיתה ומחשבים.</p></li>
+</ol>
+</div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" style="background: #eef0ec; color: #14171b; border-top: 1px solid #d5d9d0">
+<div style="max-width: 860px; margin: 0 auto; padding: clamp(64px, 8vw, 104px) 24px; display: flex; flex-direction: column; gap: 36px">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: .14em; color: #3f5200; font-weight: 500">06 / שאלות נפוצות</span>
+<h2 style="margin: 0; font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: clamp(32px, 4vw, 52px); line-height: 1.08">מה מנהלים ורכזים שואלים</h2>
+</div>
+<div style="display: flex; flex-direction: column; border-top: 1px solid #b9beb2">
+<details style="border-bottom: 1px solid #b9beb2"><summary style="display: flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 68px; padding: 14px 0; font-size: 19px; font-weight: 700"><span>התלמידים צריכים ידע קודם בתכנות?</span><svg class="plus" aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none" style="flex: none"><path d="M11 4v14M4 11h14" stroke="#3f5200" stroke-width="2.2" stroke-linecap="round"></path></svg></summary><p style="margin: 0; padding: 0 0 22px; font-size: 16.5px; color: #3d434a; max-width: 44em; text-wrap: pretty">לא. את הסוכנים בונים בכלים בלי קוד. בתיכון, למי שכבר מתכנת, יש הרחבה בפייתון.</p></details>
+<details style="border-bottom: 1px solid #b9beb2"><summary style="display: flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 68px; padding: 14px 0; font-size: 19px; font-weight: 700"><span>לאילו כיתות זה מתאים?</span><svg class="plus" aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none" style="flex: none"><path d="M11 4v14M4 11h14" stroke="#3f5200" stroke-width="2.2" stroke-linecap="round"></path></svg></summary><p style="margin: 0; padding: 0 0 22px; font-size: 16.5px; color: #3d434a; max-width: 44em; text-wrap: pretty">ז' עד י"ב. התוכן והדוגמאות מותאמים לגיל: בחטיבה יותר התנסות ומשחק, בתיכון יותר עומק טכני.</p></details>
+<details style="border-bottom: 1px solid #b9beb2"><summary style="display: flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 68px; padding: 14px 0; font-size: 19px; font-weight: 700"><span>מה בית הספר צריך לספק?</span><svg class="plus" aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none" style="flex: none"><path d="M11 4v14M4 11h14" stroke="#3f5200" stroke-width="2.2" stroke-linecap="round"></path></svg></summary><p style="margin: 0; padding: 0 0 22px; font-size: 16.5px; color: #3d434a; max-width: 44em; text-wrap: pretty">כיתה עם מקרן, חיבור לאינטרנט, ומחשב או טאבלט לכל תלמיד או לכל זוג. את כל השאר אנחנו מביאים.</p></details>
+<details style="border-bottom: 1px solid #b9beb2"><summary style="display: flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 68px; padding: 14px 0; font-size: 19px; font-weight: 700"><span>כמה תלמידים משתתפים בסדנה?</span><svg class="plus" aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none" style="flex: none"><path d="M11 4v14M4 11h14" stroke="#3f5200" stroke-width="2.2" stroke-linecap="round"></path></svg></summary><p style="margin: 0; padding: 0 0 22px; font-size: 16.5px; color: #3d434a; max-width: 44em; text-wrap: pretty">כיתה אחת בכל סדנה, כדי שהמרצה יגיע לכל תלמיד. לשכבה שלמה מתאמים כמה סדנאות במקביל.</p></details>
+<details style="border-bottom: 1px solid #b9beb2"><summary style="display: flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 68px; padding: 14px 0; font-size: 19px; font-weight: 700"><span>אפשר להתחיל בקטן ולהמשיך?</span><svg class="plus" aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none" style="flex: none"><path d="M11 4v14M4 11h14" stroke="#3f5200" stroke-width="2.2" stroke-linecap="round"></path></svg></summary><p style="margin: 0; padding: 0 0 22px; font-size: 16.5px; color: #3d434a; max-width: 44em; text-wrap: pretty">כן. הרבה בתי ספר מתחילים בהצצה לשכבה, וממשיכים למעבדה או למסלול עם הכיתות שרוצות עוד.</p></details>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="background-color: #0d0f12; background-image: repeating-linear-gradient(90deg, rgba(255,255,255,.035) 0 1px, transparent 1px 118px)">
+<svg aria-hidden="true" width="100%" height="22" style="display: block; opacity: .5"><rect width="100%" height="22" fill="url(#meander-s)"></rect></svg>
+<div style="max-width: 1180px; margin: 0 auto; padding: clamp(64px, 8vw, 112px) 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: clamp(36px, 5vw, 72px); align-items: start">
+<div style="display: flex; flex-direction: column; gap: 22px">
+<h2 style="margin: 0; font-family: 'Frank Ruhl Libre', Georgia, serif; font-weight: 900; font-size: clamp(38px, 5.2vw, 72px); line-height: 1.03; letter-spacing: -.015em; text-wrap: balance">רוצים סדנה <span style="color: #c6f432">אצלכם בבית הספר?</span></h2>
+<p style="margin: 0; font-size: 18.5px; color: #c9ced4; max-width: 30em; text-wrap: pretty">השאירו פרטים ונחזור אליכם עם תוכנית והצעת מחיר שמתאימות לשכבה ולמערכת השעות.</p>
+<div style="display: flex; flex-direction: column; gap: 6px; margin-top: 8px; font-size: 18px">
+<a href="tel:+972524268076" style="display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; color: #f4f6f1; align-self: flex-start"><span dir="ltr">052-426-8076</span></a>
+<a href="mailto:idangal2426@gmail.com" style="display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; color: #f4f6f1; align-self: flex-start"><span dir="ltr">idangal2426@gmail.com</span></a>
+</div>
+</div>
+<form id="form" novalidate style="background: #16191e; border: 1px solid rgba(255,255,255,.12); border-radius: 24px; padding: clamp(24px, 3vw, 36px); display: flex; flex-direction: column; gap: 18px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); gap: 16px">
+<label style="display: flex; flex-direction: column; gap: 7px; font-size: 14.5px; font-weight: 600; color: #dfe4d6"><span>שם מלא</span><input class="field" type="text" autocomplete="name" name="name" style="min-height: 52px; padding: 0 16px; border-radius: 12px; border: 1px solid rgba(255,255,255,.22); background: #0d0f12; color: #f4f6f1; font: inherit; font-size: 16px"></label>
+<label style="display: flex; flex-direction: column; gap: 7px; font-size: 14.5px; font-weight: 600; color: #dfe4d6"><span>תפקיד</span><input class="field" type="text" placeholder="למשל: רכזת תקשוב" name="role" style="min-height: 52px; padding: 0 16px; border-radius: 12px; border: 1px solid rgba(255,255,255,.22); background: #0d0f12; color: #f4f6f1; font: inherit; font-size: 16px"></label>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); gap: 16px">
+<label style="display: flex; flex-direction: column; gap: 7px; font-size: 14.5px; font-weight: 600; color: #dfe4d6"><span>בית הספר והיישוב</span><input class="field" type="text" name="school" style="min-height: 52px; padding: 0 16px; border-radius: 12px; border: 1px solid rgba(255,255,255,.22); background: #0d0f12; color: #f4f6f1; font: inherit; font-size: 16px"></label>
+<label style="display: flex; flex-direction: column; gap: 7px; font-size: 14.5px; font-weight: 600; color: #dfe4d6"><span>טלפון נייד</span><input class="field" type="tel" autocomplete="tel" dir="ltr" name="phone" style="min-height: 52px; padding: 0 16px; border-radius: 12px; border: 1px solid rgba(255,255,255,.22); background: #0d0f12; color: #f4f6f1; font: inherit; font-size: 16px; text-align: right"></label>
+</div>
+<label style="display: flex; flex-direction: column; gap: 7px; font-size: 14.5px; font-weight: 600; color: #dfe4d6"><span>איזה מסלול מעניין אתכם?</span>
+<select name="track" style="min-height: 52px; padding: 0 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,.22); background: #0d0f12; color: #f4f6f1; font: inherit; font-size: 16px">
+<option value="">עוד לא החלטנו</option>
+<option value="הצצה (90 דקות)">הצצה (90 דקות)</option>
+<option value="מעבדה (4 מפגשים)">מעבדה (4 מפגשים)</option>
+<option value="מסלול (10 מפגשים)">מסלול (10 מפגשים)</option>
+</select>
+</label>
+<a class="btn btn-lime" id="send" href="https://wa.me/972524268076" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 60px; border-radius: 14px; background: #c6f432; color: #0d0f12; font-weight: 700; font-size: 18px; text-decoration: none; margin-top: 4px">
+<svg aria-hidden="true" width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M3.5 18.5l1.1-3.7A7.5 7.5 0 1111 18.5a7.4 7.4 0 01-3.6-.9l-3.9.9z" stroke="#0d0f12" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+<span>שלחו בוואטסאפ</span>
+</a>
+<p style="margin: 0; font-size: 13.5px; color: #a7adb5; text-align: center">הפרטים נשלחים ישירות לוואטסאפ של AthenaAI.</p>
+</form>
+</div>
+</section>
+
+<footer style="background: #0d0f12; border-top: 1px solid rgba(255,255,255,.09)">
+<div style="max-width: 1180px; margin: 0 auto; padding: 32px 24px; display: flex; flex-wrap: wrap; gap: 12px 32px; align-items: center; justify-content: space-between; font-size: 14.5px; color: #a7adb5">
+<span dir="ltr">© 2026 AthenaAI Technologies</span>
+<span dir="ltr">052-426-8076 · idangal2426@gmail.com</span>
+</div>
+</footer>
+
+</div>
+<a class="wa-float" href="https://wa.me/972524268076" target="_blank" rel="noopener" aria-label="דברו איתנו בוואטסאפ"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 22 22" fill="none"><path d="M3.5 18.5l1.1-3.7A7.5 7.5 0 1111 18.5a7.4 7.4 0 01-3.6-.9l-3.9.9z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a>
+<script>
+(function(){
+var labels={name:"שם",role:"תפקיד",school:"בית ספר",phone:"טלפון",track:"מסלול"};
+var form=document.getElementById("form"), send=document.getElementById("send");
+function sync(){
+  var lines=["שלום, אשמח לשמוע על סדנאות ה-AI לבית הספר."];
+  Object.keys(labels).forEach(function(k){var el=form.elements[k]; if(el&&el.value) lines.push(labels[k]+": "+el.value);});
+  send.href="https://wa.me/972524268076?text="+encodeURIComponent(lines.join("\n"));
+}
+form.addEventListener("input",sync); form.addEventListener("change",sync);
+form.addEventListener("submit",function(e){e.preventDefault(); window.open(send.href,"_blank","noopener");});
+document.addEventListener("click",function(e){var b=e.target.closest("[data-pick]"); if(b){form.elements.track.value=b.getAttribute("data-pick"); sync();}});
+sync();
+})();
+</script>
+</body>
+</html>
